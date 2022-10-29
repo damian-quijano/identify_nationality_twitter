@@ -27,7 +27,7 @@ Sequence refers to the order in which data is generated from the above tables. T
 In this repository the tables with sequence 1,3 and 6 are stored. In repository 2 are the tables with sequences 2,4,5,7 and 8.  
 Size kb txt means that the file size is in kilobytes and text format. Size kb zip it means the same but in compressed format.  
    
-Data structure of the following tables:DataTweetsCR_D1,DataTweetsGT_D1,DataTweetsHN_D1,DataTweetsNI_D1, DataTweetsPA_D1, DataTweetsSV_D1, DataTweetsCR_D2, DataTweetsNI_D2 and DataTweetsPA_D2
+Below is shown data structure of the following tables:DataTweetsCR_D1,DataTweetsGT_D1,DataTweetsHN_D1,DataTweetsNI_D1, DataTweetsPA_D1, DataTweetsSV_D1, DataTweetsCR_D2, DataTweetsNI_D2 and DataTweetsPA_D2
 | Field               	| Type         	| Description                       	|
 |---------------------	|--------------	|-----------------------------------	|
 | idt                 	| bigint       	| id tweet                          	|
