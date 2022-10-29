@@ -26,6 +26,31 @@ This is repository 1. Below are the names and sizes of the largest tables used i
 Sequence refers to the order in which data is generated from the above tables. This means that if the table has sequence 3 it was created from the data in the table with sequence 2.  
 In this repository the tables with sequence 1,3 and 6 are stored. In repository 2 are the tables with sequences 2,4,5,7 and 8.  
 Size kb txt means that the file size is in kilobytes and text format. Size kb zip it means the same but in compressed format.  
+   
+Data structure of the following tables:DataTweetsCR_D1,DataTweetsGT_D1,DataTweetsHN_D1,DataTweetsNI_D1, DataTweetsPA_D1 and DataTweetsSV_D1.  
+| idt                 	| bigint       	| id tweet                          	|
+|---------------------	|--------------	|-----------------------------------	|
+| author_id           	| bigint       	| author                            	|
+| text                	| varchar(MAX) 	| message                           	|
+| created_at          	| varchar(50)  	|                                   	|
+| source              	| varchar(50)  	| device                            	|
+| conversation_id     	| bigint       	| id conversation thread            	|
+| retweet_count       	| int          	|                                   	|
+| reply_count         	| int          	|                                   	|
+| like_count          	| int          	|                                   	|
+| quote_count         	| int          	|                                   	|
+| [user]              	| varchar(MAX) 	|                                   	|
+| username            	| varchar(50)  	|                                   	|
+| verified            	| varchar(50)  	|                                   	|
+| in_reply_to_user_id 	| varchar(50)  	| to which user replied the message 	|
+| referenced_tweets   	| varchar(MAX) 	| users you referred                	|
+| hashtags            	| varchar(MAX) 	|                                   	|
+| mentions            	| varchar(MAX) 	| users you mentioned               	|
+
+
+
+
+
 
 
 
