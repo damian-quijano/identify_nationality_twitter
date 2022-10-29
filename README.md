@@ -22,3 +22,10 @@ This is repository 1. Below are the names and sizes of the largest tables used i
 | 6        	| resultsCR       	| resultsCR       	| 196420  	| 100446      	|             	|
 | 6        	| resultsNI       	| resultsNI       	| 196420  	| 100513      	|             	|
 | 6        	| resultsPA       	| resultsPA       	| 196420  	| 100493      	|             	|
+
+Sequence refers to the order in which data is generated from the above tables. This means that if the table has sequence 3 it was created from the data in the table with sequence 2.  
+In this repository the tables with sequence 1,3 and 6 are stored. In repository 2 are the tables with sequences 2,4,5,7 and 8.  
+Size kb txt means that the file size is in kilobytes and text format. Size kb zip it means the same but in compressed format.  
+
+
+
