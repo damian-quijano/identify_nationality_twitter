@@ -28,6 +28,8 @@ In this repository the tables with sequence 1,3 and 6 are stored. In repository 
 Size kb txt means that the file size is in kilobytes and text format. Size kb zip it means the same but in compressed format.  
    
 Data structure of the following tables:DataTweetsCR_D1,DataTweetsGT_D1,DataTweetsHN_D1,DataTweetsNI_D1, DataTweetsPA_D1 and DataTweetsSV_D1.  
+| Field               	| Type         	| Description                       	|
+|---------------------	|--------------	|-----------------------------------	|
 | idt                 	| bigint       	| id tweet                          	|
 | author_id           	| bigint       	| author                            	|
 | text                	| varchar(MAX) 	| message                           	|
@@ -45,7 +47,6 @@ Data structure of the following tables:DataTweetsCR_D1,DataTweetsGT_D1,DataTweet
 | referenced_tweets   	| varchar(MAX) 	| users you referred                	|
 | hashtags            	| varchar(MAX) 	|                                   	|
 | mentions            	| varchar(MAX) 	| users you mentioned               	|
-
 
 
 
