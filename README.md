@@ -27,7 +27,7 @@ Sequence refers to the order in which data is generated from the above tables. T
 In this repository the tables with sequence 1,3 and 6 are stored. In repository 2 are the tables with sequences 2,4,5,7 and 8.  
 Size kb txt means that the file size is in kilobytes and text format. Size kb zip it means the same but in compressed format.  
    
-Data structure of the following tables:DataTweetsCR_D1,DataTweetsGT_D1,DataTweetsHN_D1,DataTweetsNI_D1, DataTweetsPA_D1 and DataTweetsSV_D1.  
+Data structure of the following tables:DataTweetsCR_D1,DataTweetsGT_D1,DataTweetsHN_D1,DataTweetsNI_D1, DataTweetsPA_D1, DataTweetsSV_D1, DataTweetsCR_D2, DataTweetsNI_D2 and DataTweetsPA_D2
 | Field               	| Type         	| Description                       	|
 |---------------------	|--------------	|-----------------------------------	|
 | idt                 	| bigint       	| id tweet                          	|
@@ -47,10 +47,22 @@ Data structure of the following tables:DataTweetsCR_D1,DataTweetsGT_D1,DataTweet
 | referenced_tweets   	| varchar(MAX) 	| users you referred                	|
 | hashtags            	| varchar(MAX) 	|                                   	|
 | mentions            	| varchar(MAX) 	| users you mentioned               	|
-
-
-
-
-
+  
+  
+Data structure of the following tables:resultsCR, resultsNI and resultsPA .  
+| Field  	| Type         	| Description                             	|
+|--------	|--------------	|-----------------------------------------	|
+| num    	| int          	| consecutive number                      	|
+| pais   	| varchar(50)  	| country                                 	|
+| TN     	| int          	| True Negative                           	|
+| FP     	| int          	| False Positive                          	|
+| FN     	| int          	| False Negative                          	|
+| TP     	| int          	| True Positive                           	|
+| cols   	| varchar(MAX) 	| unused columns or features              	|
+| split  	| varchar(MAX) 	| test_size=0.20,      random_state = 123 	|
+| params 	| varchar(MAX) 	| parameters used in the model            	|
+| grid   	| varchar(MAX) 	| parameters used by GridSearch           	|
+| best   	| varchar(MAX) 	| best parameters                         	|
+  
 
 
