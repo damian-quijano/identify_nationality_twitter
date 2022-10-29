@@ -8,7 +8,7 @@ http://dx.doi.org/10.5281/zenodo.7254534
    
 Large tables have been saved in the first repository, small size tables and code have been saved in the second repository.  
   
-This is repository 1. Below are the names and sizes of the largest tables used in the study.It is a group of 12 tables.
+**This is repository 1**. Below are the names and sizes of the largest tables used in the study.It is a group of 12 tables.
 
 
 | Sequence 	| Table           	| File txt        	| Records 	| Size kb txt 	| Size kb zip 	|
