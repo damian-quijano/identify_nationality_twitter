@@ -29,7 +29,6 @@ Size kb txt means that the file size is in kilobytes and text format. Size kb zi
    
 Data structure of the following tables:DataTweetsCR_D1,DataTweetsGT_D1,DataTweetsHN_D1,DataTweetsNI_D1, DataTweetsPA_D1 and DataTweetsSV_D1.  
 | idt                 	| bigint       	| id tweet                          	|
-|---------------------	|--------------	|-----------------------------------	|
 | author_id           	| bigint       	| author                            	|
 | text                	| varchar(MAX) 	| message                           	|
 | created_at          	| varchar(50)  	|                                   	|
